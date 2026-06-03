@@ -1,0 +1,51 @@
+h1 {
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.main {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 15px;
+  align-items: center;
+}
+
+.input,
+.dateSelector {
+  width: 100%;
+  padding: 12px;
+  font-family: var(--secondary-font);
+  font-size: var(--font-size-base);
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.input:hover,
+.input:focus-visible,
+.dateSelector:focus-visible {
+  outline: 2px solid #19d2f3;
+  border: 1px solid darkcyan;
+}
+
+.addbtn {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 26px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: var(--font-size-base);
+  font-family: var(--secondary-font);
+  transition: background-color 0.2s ease;
+}
+
+.addbtn:hover {
+  background-color: hsl(152, 88%, 15%);
+}
