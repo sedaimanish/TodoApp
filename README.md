@@ -42,4 +42,6 @@ npm start
 
 ## Preview
 
+https://todo-sedaimanish.vercel.app/
+
 This project was created to strengthen my React and frontend development skills.
